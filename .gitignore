@@ -1,0 +1,12 @@
+﻿.vs
+Temp
+UserSettings
+.vsconfig
+Assembly-CSharp.csproj
+CosmoSea Scheme.sln
+*.sln
+*.csproj
+obj
+Logs
+Builds
+Library
