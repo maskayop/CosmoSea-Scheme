@@ -10,27 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3383575805895805988, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
       propertyPath: m_text
-      value: "<color=#FB0>1</color>\n\u0437\u0432\u0435\u0437\u0434\u0430"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3920218894362298682, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
-      propertyPath: m_Color.a
-      value: 0
+      value: "<color=#7CF>1</color>\n\u043A\u043B\u0430\u0441\u0441"
       objectReference: {fileID: 0}
     - target: {fileID: 4627376719703803710, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 61c744d0da383534fb4b05bc89a94e99, type: 3}
-    - target: {fileID: 4627376719703803710, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
-      propertyPath: m_Color.b
-      value: 0.5019608
-      objectReference: {fileID: 0}
-    - target: {fileID: 4627376719703803710, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
-      propertyPath: m_Color.g
-      value: 0.85490197
+      objectReference: {fileID: 21300000, guid: 5b007f6a639264142a1f787677120de4, type: 3}
+    - target: {fileID: 5258285080902056296, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6569349203783729954, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
       propertyPath: m_Name
-      value: Task Constellation
+      value: Task Logopedics
       objectReference: {fileID: 0}
     - target: {fileID: 6719662483395501610, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
       propertyPath: m_Pivot.x
@@ -112,31 +104,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8796495222005728162, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6569349203783729954, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: -8790689252440277738}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
---- !u!1 &3349809916233535892 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6569349203783729954, guid: b840a0b1735133b4583d8b42ab5e012c, type: 3}
-  m_PrefabInstance: {fileID: 8455488601170907830}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &-8790689252440277738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3349809916233535892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.2509804}
-  m_EffectDistance: {x: 1, y: 1}
-  m_UseGraphicAlpha: 1
