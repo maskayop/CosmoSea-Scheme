@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 150, y: 34}
+  m_SizeDelta: {x: 120, y: 34}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &1548441937057070066
 CanvasRenderer:
@@ -169,7 +169,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 150, y: 36}
+  m_SizeDelta: {x: 120, y: 36}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &1604514678928847001
 CanvasRenderer:
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -1
   m_wordSpacing: 0
   m_lineSpacing: -15
   m_lineSpacingMax: 0
@@ -503,9 +503,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6719662483395501610}
   - component: {fileID: 2757486740190578477}
-  - component: {fileID: 4627376719703803710}
   - component: {fileID: -1750914812437065081}
+  - component: {fileID: 4627376719703803710}
   - component: {fileID: 3269066750477164180}
+  - component: {fileID: -3840233986627884330}
   m_Layer: 5
   m_Name: Task
   m_TagString: Untagged
@@ -546,6 +547,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6569349203783729954}
   m_CullTransparentMesh: 1
+--- !u!225 &-1750914812437065081
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6569349203783729954}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &4627376719703803710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -576,18 +589,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
---- !u!225 &-1750914812437065081
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6569349203783729954}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!114 &3269066750477164180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -610,9 +611,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0.101960786}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.29803923}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.4}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.2509804}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.34901962}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.4509804}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.29803923}
     m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.050980393}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.15
@@ -632,6 +633,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-3840233986627884330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6569349203783729954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1009fee9123d4d045bfc5d876617e16e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: -1750914812437065081}
+  rewardStarCheckmark: {fileID: 8796495222005728162}
 --- !u!1001 &1288472591293738560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -732,5 +747,10 @@ PrefabInstance:
 --- !u!224 &4650656999783704140 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5867030434632255500, guid: 684840c6affe1f747bd023acc0757828, type: 3}
+  m_PrefabInstance: {fileID: 1288472591293738560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8796495222005728162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7778560099637882338, guid: 684840c6affe1f747bd023acc0757828, type: 3}
   m_PrefabInstance: {fileID: 1288472591293738560}
   m_PrefabAsset: {fileID: 0}
